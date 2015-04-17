@@ -1,4 +1,4 @@
-#!/usr/bin/env iojs
+#!/usr/bin/env node
 var child_process = require('child_process');
 var spawn = child_process.spawn;
 var exec = child_process.exec;
