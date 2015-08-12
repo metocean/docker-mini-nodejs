@@ -8,5 +8,8 @@ cp -R /install/runit/* /
 apk-install syslog-ng
 cp -R /install/syslog-ng/* /
 
+# install initjs
+mv /install/initjs/init.js /sbin/initjs
+
 # remove install dir
 rm -r /install
