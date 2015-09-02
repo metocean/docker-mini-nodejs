@@ -11,5 +11,10 @@ cp -R /install/syslog-ng/* /
 # install init.sh
 mv /install/init.sh /sbin/initsh
 
+# link bash
+echo "#!/bin/sh" > /bin/bash
+echo "sh" >> /bin/bash
+chmod +x /bin/bash
+
 # remove install dir
 rm -r /install
