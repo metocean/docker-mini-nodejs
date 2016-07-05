@@ -1,4 +1,4 @@
-FROM mhart/alpine-iojs-base
+FROM mhart/alpine-node
 MAINTAINER Thomas Coats <thomas@metocean.co.nz>
 ADD . /install/
 RUN /install/install.sh
