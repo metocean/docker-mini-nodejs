@@ -5,7 +5,7 @@ set -e
 cp -R /install/runit/* /
 
 # install syslog-ng
-apk-install syslog-ng
+apk add --update syslog-ng
 cp -R /install/syslog-ng/* /
 
 # remove install dir
